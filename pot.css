@@ -1,0 +1,202 @@
+body{
+    margin: 0%;
+    background-color:#e7ecef;
+}
+
+.header{
+    inline-size: 100%;
+    block-size: 100px;
+    background-color:#274c77;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.logo-name{
+    font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: xx-large;
+  font-style: normal; text-decoration: none;
+}
+/*  */
+.left-logo{
+    
+    color: #30bced;
+    width: 10%;
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+.lg{
+    height: 30px;
+    color: #F5CB5C;
+}
+.lg:hover{
+    height: 35px;
+    transition: 00.15s;
+}
+.lg:active{
+    height: 28px;
+    transition: 00.15s;
+}
+/*  */
+.logo{
+   width: 50%;
+   display: flex;
+   justify-content: center;
+}
+
+/*  */
+.right-logo{
+   
+    color: #30bced;
+    width: 25%;
+    display: flex;
+   justify-content: center;
+}
+.login{
+    width: 80px;
+    height: 35px;
+   background-color:#fffaff;
+   border-radius: 25px;
+   border: solid #fc5130;
+   margin-right: 10px;
+}
+.login-a{
+text-decoration: none;
+font-size: medium;
+font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-up {
+    width: 80px;
+    height: 35px;
+   background-color:#fc5130;
+   border-radius: 25px;
+   border: solid #fffaff;
+}
+.sign-up-a{
+    color: #fffaff;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .search-box{
+    color: #fffaff;
+    font-size: medium;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    height: 35px;
+    outline: none;
+    border-radius:25px ;
+    border: none;
+    padding-left: 10px;
+    background-color: #fc5130;
+   
+}
+.search-box:hover{
+    transition: 00.15s;
+    width: 75%;
+    height: 40px;
+}
+input::placeholder{
+    color: #fffaff;
+} */
+/*  */
+.out-box{
+    background-color: #e7ecef;
+    inline-size: 100%;
+    block-size: 10000px;
+    margin: 0;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 20);
+}
+h1{
+   display: flex;
+   align-items: center;
+    justify-content: center;
+    color: #1b263b;
+   padding-top: 30px;
+   margin: 0;
+   background-color: #f4f3ee;
+   text-decoration: underline #fc5130 ;
+
+}
+.in-box{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+    padding-bottom: 30px;
+    background-color: #f4f3ee;
+}
+.heart{
+    width: 300px;
+    margin-left: 30px;
+    border-radius:55% 79% 64% 69% / 100% 70% 70% 36%  ;
+    background-color:#6096ba;
+}
+.heart img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    width:400px;
+    font-weight: bold;
+    font-size: x-large;
+    font-family:serif;
+    color:#274c77;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 50px;
+    margin-left: 50px;
+    /* border-radius: 67% 50% 50% 67% / 72% 100% 82% 100% ;
+    background-color: #8b8c89; */
+} 
+/*  */
+.in-box2{
+    display: flex;
+    flex-direction: row;
+    background-color: #eaf4f4;
+}
+.text-2{
+    display: flex;
+    align-items: center;
+     justify-content: center;
+     background-color: #eaf4f4;
+     color: #1b263b;
+    /* padding-top: 30px; */
+    text-decoration: underline #fc5130;
+}
+.text-3{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fc5130;
+    width: 65%;
+    margin-left: 50px;
+}
+p{
+    color:#8b8c89;
+    font-weight:bold;
+    color: #274c77;
+}
+.blood-donor{
+    width: 300px;
+    height: 270px;   
+    margin-left: 40px;
+    margin-top: 110px;
+    border-radius: 78% 64% 100% 52% / 30% 51% 57% 91%   ;
+    background-color: #a4c3b2;
+}
+.blood-1{
+    width: 100%;
+    height: 100%;
+}
+
+hr{
+    
+    margin: 0px;
+    color: #30bced;
+}
